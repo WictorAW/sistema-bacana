@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "@admin-bro/express": "^3.1.0",
+    "@admin-bro/mongoose": "^1.1.0",
+    "admin-bro": "^4.0.1",
+    "admin-bro-theme-dark": "^1.0.0",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.0.13",
+    "nodemon": "^2.0.15",
+    "react": "=16.13.1",
+    "react-dom": "=16.13.1",
+    "react-image-file-resizer": "^0.4.7",
+    "react-medium-image-zoom": "^4.3.5",
+    "react-scale-image": "0.0.1",
+    "tslib": "^2.3.1"
+  },
+  "name": "bacanas",
+  "description": "",
+  "version": "1.0.0",
+  "main": "admin.js",
+  "scripts": {
+    "start": "node admin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MarcioShimizu/bacanasGarage.git"
+  },
+  "author": "Marcio Shimizu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcioShimizu/bacanasGarage/issues"
+  },
+  "homepage": "https://github.com/MarcioShimizu/bacanasGarage#readme"
+}
