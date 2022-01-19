@@ -82,7 +82,8 @@ const Carros = mongoose.model('car', {
   Cambio: String,
   Painel: String,
   EstadoDoCarro: String,
-  Obs: String,
+  ObsCassio: String,
+  ObsDanilo:String,
   imagens_shakensho: String,
   imagens_fotoDoCarro: String,
   imagens_shupinhyo: String
