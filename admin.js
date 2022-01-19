@@ -98,6 +98,9 @@ const canModifyCars = ({ currentAdmin, record}) => {
 // Config
 const bcrypt = require('bcrypt')
 const adminBroOptions = new AdminBro({
+  assets: {
+    styles: ['/css/admin.css'], // here you can hide the default images and re-position the boxes or text.
+  },
   resources: [
     {
     resource: Carros,
@@ -231,7 +234,7 @@ const adminBroOptions = new AdminBro({
   ],
   branding: {
     companyName: "Bacana`s Garage",
-    logo: 'https://bacanasgarage.com/media/admin-interface/logo/Logo_dourada_Yz6un2v.png',
+    logo: 'http://localhost:5500/uploads/BACANAS-SIMBOLO-LOGO3.png',
     softwareBrothers: false,
     
     
@@ -316,7 +319,7 @@ const adminBroOptions = new AdminBro({
           seeTheDocumentation: 'Ver: <1>a documentação</1>',
           createFirstRecord: 'Criar primeiro registro',
         }
-    }
+  },  
 },
  
   dashboard: {
@@ -354,6 +357,8 @@ const server = express();
 
 server.use(adminBroOptions.options.rootpath, router);
 server.use('/uploads', express.static('uploads'));
+server.use(express.static("css"));
+server.use(express.static(__dirname + '/public'));
 // Run App
 const run = async () => {
   await mongoose.connect("mongodb://localhost:27017/teste", {
