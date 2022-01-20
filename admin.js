@@ -227,7 +227,7 @@ const adminBroOptions = new AdminBro({
   ],
   branding: {
     companyName: "Bacana`s Garage",
-    logo: 'http://localhost:5500/uploads/BACANAS-SIMBOLO-LOGO3.png',
+    logo: 'http://localhost:5500/images/BACANAS-SIMBOLO-LOGO3.png',
     softwareBrothers: false,
     
     
@@ -350,6 +350,7 @@ const server = express();
 
 server.use(adminBroOptions.options.rootpath, router);
 server.use('/uploads', express.static('uploads'));
+server.use('/images', express.static('images'));
 server.use(express.static("css"));
 server.use(express.static(__dirname + '/public'));
 // Run App
