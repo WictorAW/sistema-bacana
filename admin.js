@@ -132,14 +132,6 @@ const adminBroOptions = new AdminBro({
         Modelo: {isTitle: true},
         Ano: {isTitle: true},
         Km: {isTitle: true},
-        Obs: {
-          type: 'richtext',
-          custom: {
-            modules: {
-              toolbar: [
-            
-              ['clean'], ]}},
-        },
         shakensho: {
           isVisible: {list: false, edit: true, filter: false, show: true},
           components: {

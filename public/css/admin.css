@@ -36,7 +36,8 @@ section.cRCVOs{
     border: 1px solid #2E324A;
 }
 section.djceEc  {
-    background-color: #20273E; 
+    background-color: #20273E;
+    border:1px solid #2E324A;; 
     color: #ffffff; 
     border-bottom: 1px solid #2E324A;
 }
@@ -64,7 +65,11 @@ section.brtgQr {
 
 thead.dZwkzQ{
     background-color: #2E324A;
+    
+    
 } 
+tr.iPYEcB:hover {background-color: #2E324A;}
+
 td.evAAGQ{
 
     border-bottom: 1px solid #2E324A;
@@ -73,6 +78,86 @@ td.evAAGQ{
 td.iIxmbw {
     border-bottom: 1px solid #2E324A;
 }
+/* */
 td.jMouMF{
     border-bottom: 1px solid #2E324A;
 } 
+/* admin span*/
+span.cYnErT{
+    border: 1px solid #2E324A;
+    background-color:#20273E;
+}
+/* tbody text*/
+.fbPpRS {
+    color:white
+}
+a.eaBlec {
+    background-color:#20273E;
+    border: 1px solid #2E324A;
+}
+/*icone svg 3 pontinhos*/
+a.hHUHdo .admin-bro_Icon svg {
+    fill: white;
+}
+a.gemIGY {
+    background-color:#20273E;
+    color:white;
+}
+a.gemIGY:hover {
+    border-color: #898A9A;
+    background-color: #898A9A;
+}
+a.gemIGY .admin-bro_Icon {
+    fill:white;
+}
+/*3 pontos logout*/
+span.dJZYVa > svg {
+    fill: white;
+}
+/*sandwich/logout icones*/
+span.dqTeSL > svg {
+    fill: white;
+}
+section.jcHeJu{
+    background-color:#20273E;
+    border: 1px solid #20273E;
+    color:white;
+    
+}
+section.jcHeJu:hover{
+    border-color: #898A9A;
+    background-color: #898A9A;
+}
+section.jfFPas a {
+    color: white;
+
+}
+section.jfFPas a:hover {
+    background-color: #485899;
+
+}
+section.iZfqhn {
+    background-color:#20273E;
+}
+form.khLjzP {
+    background-color:#20273E;
+    border:1px solid #2E324A;;
+}
+section.eJjHPs .sc-lbVuaH {
+    background-color:#20273E;
+    border:1px solid #2E324A;
+}
+input.iZwEPv {
+    color:white;
+}
+section.gkvdnn {
+    border:1px solid #2E324A;
+    background-color: transparent;
+}
+section.eJjHPs .sc-hhIhEF {
+ background: transparent;
+ padding: 32px 32px 32px; 
+}
+label.fyQNXW {
+    font-size: 16px;
+}

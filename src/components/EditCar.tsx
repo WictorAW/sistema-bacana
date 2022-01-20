@@ -16,11 +16,10 @@ const EditCar: FC<ActionProps> = (props) => {
   } = useRecord(initialRecord, resource.id)
   const { translateButton } = useTranslation()
   const history = useHistory()
-  console.log(action, resource)
+
   const onlyString = resource.editProperties.filter(item => item.type === "string")
   const onlyBoolean = resource.editProperties.filter(item => item.type === "boolean")
-  console.log(onlyString)
-  console.log(onlyBoolean)
+
 
   useEffect(() => {
     if (initialRecord) {
