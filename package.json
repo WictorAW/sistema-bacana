@@ -13,9 +13,9 @@
     "nodemon": "^2.0.15",
     "react": "=16.13.1",
     "react-dom": "=16.13.1",
+    "react-fullscreen-image": "0.0.3",
     "react-image-file-resizer": "^0.4.7",
     "react-medium-image-zoom": "^4.3.5",
-    "react-scale-image": "0.0.1",
     "tslib": "^2.3.1"
   },
   "name": "bacanas",

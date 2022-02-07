@@ -129,7 +129,6 @@ const adminBroOptions = new AdminBro({
         _id: {
           isVisible: {list: false, edit: false, filter: true, show: true}
         },
-        Modelo: {isTitle: true},
         Ano: {isTitle: true},
         Km: {isTitle: true},
         shakensho: {
@@ -227,7 +226,7 @@ const adminBroOptions = new AdminBro({
   ],
   branding: {
     companyName: "Bacana`s Garage",
-    logo: 'http://localhost:5500/images/BACANAS-SIMBOLO-LOGO3.png',
+    logo: 'https://bacanas.code-fy.com/images/BACANAS-SIMBOLO-LOGO3.png',
     softwareBrothers: false,
     
     

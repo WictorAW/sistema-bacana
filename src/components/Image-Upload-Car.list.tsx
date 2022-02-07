@@ -8,14 +8,13 @@ import useWindowDimensions from '../utils/getWindowDimensions';
 const Edit: React.FC<BasePropertyProps> = (props) => {
   const { record } = props
   const srcImg = record.params['imagens_fotoDoCarro']
-  const [fullScreen, setfullScreen] = useState(false)
-  const { height, width } = useWindowDimensions();
-
+  console.log(window.location.pathname.length)
   return (
-    <Box onClick={ () => setfullScreen(!fullScreen)}>
-      {srcImg ? fullScreen? <img src={srcImg} style={{cursor:'zoom-out',position: "absolute",
-        width:width/1.4,
-        background: 'white'}}/>: <img style={{cursor:'zoom-in'}} width='150px' src={srcImg} /> : 'sem imagem'}
+    <Box>
+      {srcImg ? 
+      <a href={srcImg} target="_blank">
+        <img style={{cursor:'zoom-in'}} width={window.location.pathname.length === 20? '80px': '150px'} src={srcImg} />
+      </a> : 'sem imagem'}
     </Box>
   )
 };
